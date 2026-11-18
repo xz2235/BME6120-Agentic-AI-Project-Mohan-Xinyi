@@ -1,0 +1,49 @@
+// BME 6120 Project 4: shared dev container. DRAFT, Nov 16, 2026. Not yet test-built.
+// Save as .devcontainer/devcontainer.json in the template repo. Every codespace opened
+// from that repo (or from its https://codespaces.new/OWNER/REPO link) is built from this
+// file, so every student gets the same Python setup and all four agent CLIs.
+{
+  "name": "BME 6120 Project 4",
+  "image": "python:3.12-bookworm",
+
+  // Dev Container Features install at build time, before anyone opens a terminal.
+  "features": {
+    // Node.js for the npm install below. The Claude Code docs recommend listing it
+    // first if the Claude Code feature fails with "Failed to install Node.js and npm".
+    "ghcr.io/devcontainers/features/node:1": {},
+    // Official Anthropic feature. Installs the latest Claude Code (command: claude)
+    // and adds the Claude Code VS Code extension.
+    "ghcr.io/anthropics/devcontainer-features/claude-code:1.0": {},
+    // Official feature from the devcontainers/features repo (command: copilot).
+    "ghcr.io/devcontainers/features/copilot-cli:1": {}
+  },
+
+  // Runs once, after the container is created. The entries run in parallel.
+  "postCreateCommand": {
+    // No official Codex feature; the official npm package is the supported route.
+    "codex": "npm install -g @openai/codex",
+    // No feature or npm package for Antigravity; this is Google's official installer.
+    // It puts the binary at ~/.local/bin/agy.
+    "antigravity": "curl -fsSL https://antigravity.google/cli/install.sh | bash",
+    // Replace with the class's existing pinned Python install (numpy, pandas, scipy,
+    // matplotlib, seaborn, statsmodels, scikit-learn, ipykernel).
+    "python": "pip install --no-cache-dir -r requirements.txt"
+  },
+
+  // The python image runs as root, so agy lands in /root/.local/bin. Adding it here
+  // makes agy work in every terminal without reopening one. Change the path if you
+  // switch to an image with a non-root user.
+  "remoteEnv": {
+    "PATH": "${containerEnv:PATH}:/root/.local/bin"
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot-chat",
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  }
+}
