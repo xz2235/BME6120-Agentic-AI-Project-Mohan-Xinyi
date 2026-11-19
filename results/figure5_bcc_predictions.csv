@@ -1,0 +1,96 @@
+"SeqID","Cohort","Group","TrueLabel","PDACScore"
+"PCX156","BCC","Benign Pancreas","notPDAC",0.16
+"PCX157","BCC","PDAC","PDAC",0.664
+"PCX158","BCC","PDAC","PDAC",0.524
+"PCX159","BCC","PDAC","PDAC",0.244
+"PCX160","BCC","Pancreatitis","notPDAC",0.216
+"PCX161","BCC","Islet Cell Tumor","notPDAC",0.516
+"PCX162","BCC","Islet Cell Tumor","notPDAC",0.068
+"PCX163","BCC","Cancer_other","notPDAC",0.372
+"PCX164","BCC","Cancer_other","notPDAC",0.196
+"PCX165","BCC","Cancer_other","notPDAC",0.496
+"PCX166","BCC","Benign Pancreas","notPDAC",0.152
+"PCX167","BCC","Cancer_other","notPDAC",0.312
+"PCX168","BCC","Benign Pancreas","notPDAC",0.16
+"PCX169","BCC","Pancreatitis","notPDAC",0.28
+"PCX170","BCC","Cancer_other","notPDAC",0.388
+"PCX171","BCC","PDAC","PDAC",0.376
+"PCX172","BCC","Benign Pancreas","notPDAC",0.1
+"PCX173","BCC","Benign Pancreas","notPDAC",0.26
+"PCX174","BCC","Islet Cell Tumor","notPDAC",0.46
+"PCX175","BCC","Cancer_other","notPDAC",0.688
+"PCX176","BCC","Pancreatitis","notPDAC",0.196
+"PCX177","BCC","Pancreatitis","notPDAC",0.404
+"PCX178","BCC","Pancreatitis","notPDAC",0.208
+"PCX179","BCC","Pancreatitis","notPDAC",0.076
+"PCX180","BCC","PDAC","PDAC",0.328
+"PCX181","BCC","Cancer_other","notPDAC",0.416
+"PCX182","BCC","Pancreatitis","notPDAC",0.44
+"PCX183","BCC","Islet Cell Tumor","notPDAC",0.284
+"PCX184","BCC","IPMN","notPDAC",0.08
+"PCX186","BCC","Benign Pancreas","notPDAC",0.196
+"PCX187","BCC","Benign Pancreas","notPDAC",0.172
+"PCX188","BCC","Pancreatitis","notPDAC",0.184
+"PCX189","BCC","Islet Cell Tumor","notPDAC",0.28
+"PCX190","BCC","Benign Pancreas","notPDAC",0.416
+"PCX191","BCC","Benign Pancreas","notPDAC",0.068
+"PCX192","BCC","Pancreatitis","notPDAC",0.088
+"PCX193","BCC","Pancreatitis","notPDAC",0.248
+"PCX194","BCC","Pancreatitis","notPDAC",0.344
+"PCX195","BCC","IPMN","notPDAC",0.048
+"PCX196","BCC","Benign Pancreas","notPDAC",0.28
+"PCX197","BCC","Benign Pancreas","notPDAC",0.324
+"PCX198","BCC","IPMN","notPDAC",0.1
+"PCX199","BCC","Benign Pancreas","notPDAC",0.328
+"PCX200","BCC","Cancer_other","notPDAC",0.328
+"PCX201","BCC","PDAC","PDAC",0.48
+"PCX202","BCC","IPMN","notPDAC",0.212
+"PCX203","BCC","Benign Pancreas","notPDAC",0.156
+"PCX205","BCC","PDAC","PDAC",0.592
+"PCX206","BCC","Benign Pancreas","notPDAC",0.208
+"PCX207","BCC","PDAC","PDAC",0.58
+"PCX208","BCC","PDAC","PDAC",0.292
+"PCX209","BCC","Benign Pancreas","notPDAC",0.12
+"PCX210","BCC","Cancer_other","notPDAC",0.18
+"PCX211","BCC","Islet Cell Tumor","notPDAC",0.248
+"PCX212","BCC","Pancreatitis","notPDAC",0.344
+"PCX213","BCC","PDAC","PDAC",0.352
+"PCX214","BCC","Benign Pancreas","notPDAC",0.188
+"PCX215","BCC","Cancer_other","notPDAC",0.36
+"PCX216","BCC","PDAC","PDAC",0.588
+"PP209","BCC","Pancreatitis","notPDAC",0.192
+"PP210","BCC","IPMN","notPDAC",0.148
+"PP211","BCC","PDAC","PDAC",0.528
+"PP212","BCC","Benign Pancreas","notPDAC",0.16
+"PP213","BCC","Pancreatitis","notPDAC",0.1
+"PP214","BCC","PDAC","PDAC",0.408
+"PP215","BCC","IPMN","notPDAC",0.088
+"PP216","BCC","Pancreatitis","notPDAC",0.2
+"PP217","BCC","Pancreatitis","notPDAC",0.216
+"PP218","BCC","Benign Pancreas","notPDAC",0.032
+"PP219","BCC","Pancreatitis","notPDAC",0.156
+"PP220","BCC","IPMN","notPDAC",0.144
+"PP221","BCC","Benign Pancreas","notPDAC",0.28
+"PP222","BCC","Pancreatitis","notPDAC",0.156
+"PP223","BCC","Pancreatitis","notPDAC",0.108
+"PP224","BCC","Pancreatitis","notPDAC",0.28
+"PP225","BCC","PDAC","PDAC",0.392
+"PP226","BCC","IPMN","notPDAC",0.116
+"PP227","BCC","Pancreatitis","notPDAC",0.2
+"PP228","BCC","PDAC","PDAC",0.444
+"PP229","BCC","IPMN","notPDAC",0.2
+"PP230","BCC","IPMN","notPDAC",0.212
+"PP231","BCC","Benign Pancreas","notPDAC",0.02
+"PP232","BCC","PDAC","PDAC",0.304
+"PP233","BCC","PDAC","PDAC",0.436
+"PP234","BCC","IPMN","notPDAC",0.488
+"PP235","BCC","Cancer_other","notPDAC",0.064
+"PP236","BCC","PDAC","PDAC",0.656
+"PP237","BCC","PDAC","PDAC",0.588
+"PP238","BCC","PDAC","PDAC",0.424
+"PP239","BCC","PDAC","PDAC",0.496
+"PP240","BCC","Pancreatitis","notPDAC",0.172
+"PP241","BCC","Benign Pancreas","notPDAC",0.504
+"PP242","BCC","Benign Pancreas","notPDAC",0.056
+"PP243","BCC","Pancreatitis","notPDAC",0.176
+"PP244","BCC","Benign Pancreas","notPDAC",0.136

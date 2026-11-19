@@ -1,0 +1,24 @@
+/data/
+
+# Interpreter caches and local session state
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.Rhistory
+.RData
+.Ruserdata
+Rplots.pdf
+
+# Temporary output and raw sequencing or alignment files
+/tmp/
+*.tmp
+*.part
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sra
+*.sam
+*.bam
+*.cram

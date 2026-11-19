@@ -1,0 +1,2 @@
+"Pooled_AUROC","Frozen_AUROC","Delta_frozen_minus_pooled","CI95_lower","CI95_upper","Bootstrap_replicates","Bootstrap_seed","CEDAR_samples","BCC_samples","Pooled_genes","Frozen_genes","Shared_genes","Frozen_genes_after_variance_filter","Frozen_synthetic_PDAC"
+0.896074646074646,0.9002574002574,0.00418275418275416,-0.0379745817245818,0.0427927927927928,10000,6120,153,95,29,36,29,19990,100
